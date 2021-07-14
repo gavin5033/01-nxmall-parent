@@ -17,6 +17,8 @@
         <module>01-nxmall-mapper</module>
         <module>01-nxmall-provider</module>
         <module>01-nxmall-manager</module>
+        <module>01-nxmall-redis</module>
+        <module>01-nxmall-portal</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
