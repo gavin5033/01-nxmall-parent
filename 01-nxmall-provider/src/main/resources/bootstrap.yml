@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: 01_nxmall_provider
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: 192.168.1.2:8848
+      discovery:
+        server-addr: 192.168.1.2:8848
+      username: nacos
+      password: nacos
+      server-addr: 192.168.1.2:8848
+dubbo:
+  protocol:
+    host: 192.168.43.5
+    name: dubbo
+    post: 20881
+  registry:
+    address: nacos://192.168.1.2:8848
+  provider:
+    timeout: 80000
+    group: nxmall
+  scan:
+    base-packages: com.nx.provider.service
+  application:
+    name: 01_nxmall_provider
+server:
+  port: 8084
