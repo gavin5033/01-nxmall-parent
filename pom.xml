@@ -19,6 +19,11 @@
         <module>01-nxmall-manager</module>
         <module>01-nxmall-redis</module>
         <module>01-nxmall-portal</module>
+        <module>01-nxmall-search</module>
+        <module>01-nxmall-item</module>
+        <module>01-nxmall-cat</module>
+        <module>01-nxmall-passport</module>
+        <module>01-nxmall-order</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
